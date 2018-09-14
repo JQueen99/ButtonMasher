@@ -462,9 +462,7 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 680596892}
-  m_Text: '00
-
-'
+  m_Text: 10
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -616,6 +614,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickSound: {fileID: 127415142}
   scoreText: {fileID: 1153963962}
+  timerText: {fileID: 680596893}
+  gameLength: 10
+  timeRemaining: 0
 --- !u!61 &893951801
 BoxCollider2D:
   m_ObjectHideFlags: 0
